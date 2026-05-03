@@ -138,21 +138,4 @@ gunicorn app.main:app -w 4 -k uvicorn.workers.UvicornWorker
 | `/api/v1/document/ocr` | POST | 文档OCR识别 |
 | `/api/v1/health` | GET | 健康检查 |
 
-## 📊 性能指标
 
-| 指标 | Qwen-3.5 7B | Qwen-3.5 14B |
-|------|-------------|--------------|
-| 响应延迟 | <300ms | <500ms |
-| 并发支持 | 100+ | 50+ |
-
-## 📝 许可证
-
-MIT License
-
-## 🤝 贡献
-
-欢迎提交Issue和PR！
-
----
-
-*项目已通过Qwen-3.5 API集成验证*
