@@ -1,0 +1,6 @@
+from .main import app
+
+__version__ = "1.0.0"
+__author__ = "GLM-Vision Team"
+
+__all__ = ["app", "__version__", "__author__"]
